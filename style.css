@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Diphylleia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.my-photo {
+  height: 150px;
+  width: auto;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 50px 50px 100px #bfbfbf, -50px -50px 100px #ffffff;
+}
+
+.info {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-family: inherit;
+}
+
+.info-text {
+  margin-left: 40px;
+  font-family: inherit;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .info-text {
+    text-align: center;
+    display: block;
+  }
+}
+
+.a-text {
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: italic;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.a-text:hover {
+  color: #bfbfbf;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+
+.a-text:visited {
+  color: grey;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.bg-yellow {
+  background-color: burlywood;
+}
+
+.bg-green {
+  background-color: lightgreen;
+}
+
+.bg-red {
+  background-color: coral;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #000;
+  padding: 15px 20px;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
